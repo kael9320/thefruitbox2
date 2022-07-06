@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
           <Container>
-            <Navbar.Brand href="#"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
+            <Navbar.Brand href="#"><img src={logo} className="img-fluid" alt="logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
@@ -27,7 +27,7 @@ const NavBar = () => {
                   className="form-header"
                   aria-label="Search"
                 />
-                <FontAwesomeIcon icon="user" />
+                <FontAwesomeIcon icon={["far", "coffee"]} />
                 <Button variant="outline-success">Buscar</Button>
               </Form>
             </Navbar.Collapse>
